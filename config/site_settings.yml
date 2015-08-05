@@ -37,10 +37,10 @@ required:
     type: username
   logo_url:
     client: true
-    default: '/images/d-logo-sketch.png'
+    default: '/assets/citygrows_logo.png'
   logo_small_url:
     client: true
-    default: '/images/d-logo-sketch-small.png'
+    default: '/assets/citygrows_logo.png'
   digest_logo_url:
     client: false
     default: ''
@@ -50,7 +50,7 @@ required:
   favicon_url:
     client: true
     default: '/images/default-favicon.ico'
-  apple_touch_icon_url: '/images/default-apple-touch-icon.png'
+  apple_touch_icon_url: '/assets/default-apple-touch-icon.png'
   exclude_rel_nofollow_domains:
     default: ''
     type: list
